@@ -1,0 +1,62 @@
+*{
+    font-family: 'Pixelify Sans', sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #212223;
+    color: white; 
+}
+
+.navegacion{
+    text-align: right;
+    font-size: 22px;
+    position: absolute;
+    top: 25px;
+    right: 20px;
+    position: fixed;
+}
+
+.navegacion a{
+    text-decoration: none;
+    color: white;
+}
+
+.header{
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(59, 56, 56);
+    width:min-content;
+    padding: 10px;
+}
+
+.cuadro{
+    padding: 6px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+
+}
+
+p{
+    text-align: center;
+    
+}
+
+.send a{
+    text-decoration: none;
+    color: black
+}
+
+.op{
+    margin-right: 20px;
+}
+
+.op:hover{
+    color: black;
+}

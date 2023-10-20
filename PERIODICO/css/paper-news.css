@@ -1,0 +1,81 @@
+*{
+    font-family: 'Pixelify Sans', sans-serif;
+}
+
+body{
+    background-color: #212223;
+    color: white;
+}
+
+.title{
+    text-align: left;
+    font-size: 40px;
+}
+
+.navegacion{
+    text-align: right;
+    font-size: 22px;
+    position: absolute;
+    top: 25px;
+    right: 20px;
+    position: fixed;
+}
+.navegacion a{
+    text-decoration: none;
+    color: white;
+}
+
+.contacto{
+    text-align: center;
+    background-color: rgb(72, 66, 66);
+    border-radius: 25px;
+    margin-top: 8px;
+    width: 100px
+
+}
+
+.contacto-w:hover{
+    color: black;
+    background: rgb(29, 197, 7);
+    border-radius: 15px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.contacto-g:hover{
+    color: black;
+    background: rgb(240, 5, 5);
+    border-radius: 15px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.contacto-i:hover{
+    color: black;
+    background-color: blueviolet;
+    border-radius: 15px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+#contactanos{
+    display: flex;
+    margin-top: 15px;
+    justify-content: center;
+    text-align: center;
+    gap: 15px;
+}
+
+.contact{
+    font-size: 30px;
+    text-align: center;
+}
+
+.op{
+    margin-right: 20px;
+}
+
+.op:hover{
+    color: black;
+}
+   
